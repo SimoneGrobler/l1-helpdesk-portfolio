@@ -1,3 +1,4 @@
+
 # Ticket 001 — Password Reset
 
 **Category:** Password/Account
@@ -63,3 +64,20 @@ could regain access.
 - No temporary credentials were ever placed in ticket text, matching
   standard credential-handling practice.
 
+## Screenshots
+
+| Step | Screenshot |
+|---|---|
+| Ticket submitted by end user | `ticket-001-submit.png` |
+| Ticket visible in agent queue | `ticket-001-queue.png` |
+| Acknowledgement / identity check | `ticket-001-acknowledge.png` |
+| Password reset performed in OpenRSAT | `ticket-001-openrsat-reset.png` |
+| Ticket marked Resolved | `ticket-001-resolved.png` |
+| Fix verified — forced password change on login | `ticket-001-verified.png` |
+
+![Ticket submission](../ticket-001-submit.png)
+![Ticket in queue](../ticket-001-queue.png)
+![Acknowledgement](../ticket-001-acknowledge.png)
+![Password reset in OpenRSAT](../ticket-001-openrsat-reset.png)
+![Ticket resolved](../ticket-001-resolved.png)
+![Fix verified on end-user side](../ticket-001-verified.png)
