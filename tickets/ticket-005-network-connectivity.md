@@ -29,15 +29,14 @@ issue had not been present the previous day.
 
 ## Resolution
 
-1. Corrected the client's DNS server address back to DC01's IP:
+Corrected the client's DNS server address back to DC01's IP:
 
 ```powershell
 Set-DnsClientServerAddress -InterfaceAlias "Ethernet" -ServerAddresses "10.0.0.1"
 Clear-DnsClientCache
 ```
 
-2. Verified the fix with `Get-DnsClientServerAddress` (confirmed `10.0.0.1` applied) and `Resolve-DnsName DC01` (resolved successfully).
-3. Confirmed with the end user that the shared drive and other name-based resources were accessible again.
+Verified the fix with `Get-DnsClientServerAddress` (confirmed `10.0.0.1` applied) and `Resolve-DnsName DC01` (resolved successfully). Confirmed with the end user that the shared drive and other name-based resources were accessible again.
 
 ## Notes
 
@@ -58,12 +57,12 @@ Clear-DnsClientCache
 | Resolution confirmed | `ticket005-07-resolution-confirmed.png` |
 | Ticket closed | `ticket005-08-ticket-closed.png` |
 
-![DNS fault planted](../screenshots/ticket005-01-fault-planted.png)
-![Ticket submitted](../screenshots/ticket005-02-ticket-submitted.png)
-![Intake thread exchange](../screenshots/ticket005-02b-thread-exchange.png)
-![IP-level ping success](../screenshots/ticket005-03-ping-ip-success.png)
-![DNS resolution failure confirmed](../screenshots/ticket005-04-dns-failure.png)
-![Root cause — misconfigured DNS server](../screenshots/ticket005-05-root-cause.png)
-![Fix applied — DNS corrected](../screenshots/ticket005-06-fix-applied.png)
-![Resolution confirmed](../screenshots/ticket005-07-resolution-confirmed.png)
-![Ticket closed](../screenshots/ticket005-08-ticket-closed.png)
+![DNS fault planted](../ticket005-screenshots/ticket005-screenshots/ticket005-01-fault-planted.png)
+![Ticket submitted](../ticket005-screenshots/ticket005-screenshots/ticket005-02-ticket-submitted.png)
+![Intake thread exchange](../ticket005-screenshots/ticket005-screenshots/ticket005-02b-thread-exchange.png)
+![IP-level ping success](../ticket005-screenshots/ticket005-screenshots/ticket005-03-ping-ip-success.png)
+![DNS resolution failure confirmed](../ticket005-screenshots/ticket005-screenshots/ticket005-04-dns-failure.png)
+![Root cause — misconfigured DNS server](../ticket005-screenshots/ticket005-screenshots/ticket005-05-root-cause.png)
+![Fix applied — DNS corrected](../ticket005-screenshots/ticket005-screenshots/ticket005-06-fix-applied.png)
+![Resolution confirmed](../ticket005-screenshots/ticket005-screenshots/ticket005-07-resolution-confirmed.png)
+![Ticket closed](../ticket005-screenshots/ticket005-screenshots/ticket005-08-ticket-closed.png)
