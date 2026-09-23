@@ -9,4 +9,5 @@ Windows Server AD lab + osTicket helpdesk simulation — L1 support portfolio
 - [Ticket 004 — Access Denied on Shared Drive](tickets/ticket-004-access-denied.md)
 - [Ticket 005 — Network Connectivity Loss](tickets/ticket-005-network-connectivity.md)
 - [Ticket 006 — Software Install Request](tickets/ticket-006-software-install.md)
+- [Ticket 007 — Application Crash After Update](tickets/ticket-007-application-crash.md)
 
