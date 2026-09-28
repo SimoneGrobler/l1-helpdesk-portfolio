@@ -11,4 +11,4 @@ Windows Server AD lab + osTicket helpdesk simulation — L1 support portfolio
 - [Ticket 006 — Software Install Request](tickets/ticket-006-software-install.md)
 - [Ticket 007 — Application Crash After Update](tickets/ticket-007-application-crash.md)
 - [Ticket 008 — Slow Computer Performance](tickets/ticket-008-slow-performance.md)
-
+- [Ticket 009 — Printer Not Working](tickets/ticket-009-printer-not-working.md)
