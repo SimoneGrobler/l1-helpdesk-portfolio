@@ -15,3 +15,4 @@ Windows Server AD lab + osTicket helpdesk simulation — L1 support portfolio
 - [Ticket 010 — Outlook Won't Open](tickets/ticket-010-outlook-wont-open.md)
 - [Ticket 011 — Group Membership Change](tickets/ticket-011-group-membership-change.md)
 - [Ticket 012 — Proactive Password Expiration Request](tickets/ticket-012-password-expiration.md)
+- [Ticket 013 — VPN Connection Failure](tickets/ticket-013-vpn-connection-failure.md)
