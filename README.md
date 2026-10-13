@@ -17,3 +17,4 @@ Windows Server AD lab + osTicket helpdesk simulation — L1 support portfolio
 - [Ticket 012 — Proactive Password Expiration Request](tickets/ticket-012-password-expiration.md)
 - [Ticket 013 — VPN Connection Failure](tickets/ticket-013-vpn-connection-failure.md)
 - [Ticket 014 — Urgent: Executive Can't Access Critical System](tickets/ticket-014-urgent-access-request.md)
+- [Ticket 015 — Remote Troubleshooting via AnyDesk](tickets/ticket-015-remote-support-anydesk.md)
